@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const severURL = "https://mern-0n6b.onrender.com/";//"http://localhost:5050";
+const severURL = "https://mern-0n6b.onrender.com";//"http://localhost:5050";
 
 
 const Record = (props) => (
