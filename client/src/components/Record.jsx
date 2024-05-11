@@ -10,7 +10,7 @@ export default function Record() {
   const [isNew, setIsNew] = useState(true);
   const params = useParams();
   const navigate = useNavigate();
-  const severURL = "http://localhost:5050";
+  const severURL = "https://mern-0n6b.onrender.com/";//"http://localhost:5050";
 
   useEffect(() => {
     async function fetchData() {
